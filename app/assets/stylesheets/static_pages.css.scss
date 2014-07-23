@@ -6,12 +6,25 @@
 
 $grayMediumLight: #eaeaea;
 
-//body {
-//	padding-top: 60px;
-//}
+body {
+  padding-top: 10px;
+  margin-left: 0;
+  margin-right: 0;
+}
 
-div {
-	
+.center {
+  text-align: center;
+}
+
+h1 {
+  font-weight: 100;
+  margin-top: 10px;
+}
+
+a {
+  &.btn {
+    width: 100%;
+  }
 }
 
 footer {
@@ -25,7 +38,7 @@ footer {
 		&:hover {
 			color: $gray-darker;
 		}
-	}
+  }
 	
 	small {
 		float: left;

@@ -3,7 +3,8 @@ IanyorkUs::Application.routes.draw do
   get "static_pages/welcome"
   get "static_pages/music"
   
-  root "static_pages/welcome"
+  root "static_pages#welcome"
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
