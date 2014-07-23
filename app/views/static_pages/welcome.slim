@@ -2,10 +2,21 @@
     h1 Welcome to IanYork.US
 .container-fluid
     .row
-        .col-md-3.col-md-offset-3
-            a.btn.btn-default.btn-lg href=static_pages_music_path
-                span.glyphicon.glyphicon-music
-        .col-md-3
-            a.btn.btn-default.btn-lg href=static_pages_music_path
-                span.glyphicon.glyphicon-envelope
-            
+        / .col-md-3.col-md-offset-3
+        /     a.btn.btn-default.btn-lg href=static_pages_music_path
+        /         span.glyphicon.glyphicon-music
+        / .col-md-3
+        /     a.btn.btn-default.btn-lg href=static_pages_music_path
+        /         span.glyphicon.glyphicon-envelope
+
+        ul.nav.nav-pills role="tablist"
+            li
+                a href="#music" role="tab" data-toggle="pill"
+                    span.glyphicon.glyphicon-music
+            li
+                a href="#contact" role="tab" data-toggle="pill"
+                    span.glyphicon.glyphicon-envelope
+
+        .tab-content
+            .tab-pane.fade.in#music ewopqhwepoigh
+            .tab-pane.fade#contact fwioehio

@@ -27,6 +27,15 @@ a {
   }
 }
 
+ul.nav-pills {
+  li {
+    a {
+      border-color: $grayMediumLight;
+      color: black;
+    }
+  }
+}
+
 footer {
 	margin-top: 45px;
 	padding-top: 5px;
