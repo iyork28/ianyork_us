@@ -28,9 +28,13 @@ a {
 }
 
 ul.nav-pills {
+  border-color: $grayMediumLight;
+  
   li {
+    &.active {
+      background-color: $grayMediumLight;
+    }
     a {
-      border-color: $grayMediumLight;
       color: black;
     }
   }
@@ -61,3 +65,7 @@ footer {
 		}
 	}
 }
+
+// Welcome styling
+
+
